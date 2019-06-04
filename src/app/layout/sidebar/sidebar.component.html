@@ -1,0 +1,23 @@
+<div class="sidebar" data-color="green" data-background-color="black" data-image="../assets/img/sidebar-3.jpg">
+    <div class="logo">
+        <a href="javascript:;" class="simple-text logo-normal">
+            NG Quick Start
+        </a>
+    </div>
+    <div class="sidebar-wrapper">
+        <ul class="nav">
+            <li class="nav-item" [routerLinkActive]="['active']" [routerLink]="['/home']">
+                <a class="nav-link" href="javascript:;">
+                    <i class="material-icons">home</i>
+                    <p>首页</p>
+                </a>
+            </li>
+            <li class="nav-item" [routerLinkActive]="['active']" [routerLink]="['/user']">
+                <a class="nav-link" href="javascript:;">
+                    <i class="material-icons">person</i>
+                    <p>用户中心</p>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
