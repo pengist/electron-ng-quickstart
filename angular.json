@@ -27,16 +27,17 @@
                             "src/assets"
                         ],
                         "styles": [
-                            "src/lib/assets/css/material-dashboard.css",
+                            "src/lib/material-icon/material-icon.css",
+                            "src/lib/material-dashboard/css/material-dashboard.css",
                             "src/styles.scss"
                         ],
                         "scripts": [
                             "node_modules/jquery/dist/jquery.min.js",
-                            "src/lib/assets/js/core/popper.min.js",
-                            "src/lib/assets/js/core/bootstrap-material-design.min.js",
-                            "src/lib/assets/js/plugins/perfect-scrollbar.jquery.min.js",
-                            "src/lib/assets/js/plugins/bootstrap-notify.js",
-                            "src/lib/assets/js/material-dashboard.js"
+                            "src/lib/material-dashboard/js/core/popper.min.js",
+                            "src/lib/material-dashboard/js/core/bootstrap-material-design.min.js",
+                            "src/lib/material-dashboard/js/plugins/perfect-scrollbar.jquery.min.js",
+                            "src/lib/material-dashboard/js/plugins/bootstrap-notify.js",
+                            "src/lib/material-dashboard/js/material-dashboard.js"
                         ]
                     },
                     "configurations": {
