@@ -28,6 +28,7 @@
                         ],
                         "styles": [
                             "src/lib/material-icon/material-icon.css",
+                            "node_modules/font-awesome/css/font-awesome.min.css",
                             "src/lib/material-dashboard/css/material-dashboard.css",
                             "src/styles.scss"
                         ],
