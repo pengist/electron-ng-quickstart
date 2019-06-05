@@ -31,7 +31,7 @@
                             "src/styles.scss"
                         ],
                         "scripts": [
-                            "src/lib/assets/js/core/jquery.min.js",
+                            "node_modules/jquery/dist/jquery.min.js",
                             "src/lib/assets/js/core/popper.min.js",
                             "src/lib/assets/js/core/bootstrap-material-design.min.js",
                             "src/lib/assets/js/plugins/perfect-scrollbar.jquery.min.js",

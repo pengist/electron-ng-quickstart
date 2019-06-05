@@ -5,17 +5,17 @@ const path = require("path");
 let mainWindow;
 const createWindow = function () {
     mainWindow = new BrowserWindow({
-        width: 800,
-        height: 600,
+        width: 1080,
+        height: 768,
         webPreferences: {
-            nodeIntegration: true
+            nodeIntegration: false
         }
     });
     mainWindow.loadFile(`index.html`);
     mainWindow.on('closed', function () {
         mainWindow = null;
     });
-    mainWindow.webContents.openDevTools();
+    // mainWindow.webContents.openDevTools();
 };
 
 app.on('ready', createWindow);
